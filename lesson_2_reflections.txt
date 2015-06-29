@@ -15,3 +15,10 @@ would branches help?
     you can still experiment while maintaining the actual product.
 How do the diagrams help you visualize the branch structure?
     They help me realize which branches are and are not reachable.
+What is the result of merging two branches together? Why do we represent it in the diagram the way 
+we do?
+    The content of the two branches are combined. The branches separate and develop separately for
+    a while, and then combine through merging.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    Git can take care of a lot of work automatically, but it might merge somethings weirdly because 
+    it isn't the smartest.
