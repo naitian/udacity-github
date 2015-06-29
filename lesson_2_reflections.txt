@@ -6,3 +6,12 @@ think it offers?
     A staging area is a middle ground between the working directory that can change at any time and
     the repository, which is separated into commits (not actually, just my way of thinking about
     it). It allows commits to bundle more than one file into one single commit.
+How can you use the staging area to make sure you have one commit per logical change?
+    You can use git diff --staged to make sure this is only one logical difference between the
+    staged commit and the most recent commit.
+What are some situations when branches would be helpful in keeping your history organized? How 
+would branches help?
+    Branches help keep experimental features or big changes separate from the main product so that
+    you can still experiment while maintaining the actual product.
+How do the diagrams help you visualize the branch structure?
+    They help me realize which branches are and are not reachable.
